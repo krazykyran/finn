@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="?)kfF9oaFPS[0lVJ/F|E" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id="xobL.j}7#k)Mq.hrD;5n"><value name="melody"><shadow type="melody_editor" id="uxI?Y(;O@hT`yczw6*sj"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="BFoOx.mvr,pU:UZd1DBw"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">160</field></shadow></value></block></statement></block><block type="device_button_event" id="t%jX-2EXyz?4#2yaM9E@" x="127" y="232"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="RgNK0QaSy,$mE[FmhfiX"><field name="LEDS">`
+        . # # # . 
+        # # . # # 
+        # . # . # 
+        # # . # # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="?/m_e,aa_HU%RbELX:wR" x="493" y="323"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="g3X%_K2T]@]?NG4(yvBN"><field name="LEDS">`
+        # . . . # 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        # . . . #
+        `</field></block></statement></block><block type="device_forever" id="[=SX-jxxn~lr*bdiJ]]%" x="25" y="477"><statement name="HANDLER"><block type="basic_show_icon" id="z1EvL:Ho@s`e-+u(o`Hi"><field name="i">IconNames.House</field></block></statement></block><block type="device_button_event" id="zB[%Dym,6]4U=VM37.*," x="212" y="576"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="-LFH+}*H*W0vl!=~/L}T"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # . # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement></block><block type="device_gesture_event" id="3rHpZa#ch10oXtm^G+8)" x="495" y="805"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="p;^Br*1E^qm7gW?V71,)"><field name="this">soundExpression.yawn</field></block></statement></block><block type="device_gesture_event" id="=@F#YQt)a@Q?RndXJJ3{" x="-25" y="896"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="SoundExpression_play" id="c5/1dC/n-vw@w,jkaE{)"><field name="this">soundExpression.soaring</field></block></statement></block><block type="device_gesture_event" id=",!{eJbh=kV4h@2w#_D7c" x="214" y="904"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="SoundExpression_play" id="],:2lfGko:]9YGZNUAG,"><field name="this">soundExpression.giggle</field></block></statement></block></xml>
